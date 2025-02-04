@@ -1,4 +1,4 @@
-# Temporal_Data_Imputation_Medical_Dataset
+# Temporal Data Imputation for Medical Datasets
 
 This repository presents a novel statistical hierarchical approach for imputing missing values in temporal medical datasets. For time series imputation in this research, the following information about ICU patients was extracted from the MIMIC-IV dataset:
 
