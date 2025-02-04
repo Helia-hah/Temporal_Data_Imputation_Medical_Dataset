@@ -16,7 +16,7 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 - **Outlier Removal:** Outliers in demographic data, vital signs, and physical characteristics were removed based on the following value ranges:
 
-  <table style="font-size: 10px; width: 50%; margin: auto; border-collapse: collapse;">
+  <table style="font-size: 8px; width: 20%; margin: auto; border-collapse: collapse;">
   <thead>
     <tr>
       <th style="border: 1px solid black; padding: 5px;">Variable</th>
