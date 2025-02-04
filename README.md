@@ -13,7 +13,7 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 ### Data Preprocessing
 
-- (**Outlier Removal:**)Outliers in demographic data, vital signs, and physical characteristics were removed based on the following value ranges:
+- **Outlier Removal:** Outliers in demographic data, vital signs, and physical characteristics were removed based on the following value ranges:
 
 | Variable | Min Value | Max Value |
 |------------------------------|-----------|-----------| 
