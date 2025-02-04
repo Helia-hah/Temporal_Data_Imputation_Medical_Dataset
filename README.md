@@ -16,7 +16,7 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 - **Outlier Removal:** Outliers in demographic data, vital signs, and physical characteristics were removed based on the following value ranges:
 
-  <table style="font-size: 12px; width: 60%; margin: auto; border-collapse: collapse;">
+  <table style="font-size: 10px; width: 50%; margin: auto; border-collapse: collapse;">
   <thead>
     <tr>
       <th style="border: 1px solid black; padding: 5px;">Variable</th>
@@ -51,7 +51,30 @@ This repository presents a novel statistical hierarchical approach for imputing 
       <td style="border: 1px solid black; padding: 5px;">505</td>
     </tr>
     <tr>
-      <td style
+      <td style="border: 1px solid black; padding: 5px;"><strong>Non-invasive BP mean</strong></td>
+      <td style="border: 1px solid black; padding: 5px;">-5</td>
+      <td style="border: 1px solid black; padding: 5px;">505</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;"><strong>Weight</strong></td>
+      <td style="border: 1px solid black; padding: 5px;">40</td>
+      <td style="border: 1px solid black; padding: 5px;">1435</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;"><strong>Height</strong></td>
+      <td style="border: 1px solid black; padding: 5px;">20</td>
+      <td style="border: 1px solid black; padding: 5px;">110</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px;"><strong>BMI</strong></td>
+      <td style="border: 1px solid black; padding: 5px;">5</td>
+      <td style="border: 1px solid black; padding: 5px;">190</td>
+    </tr>
+  </tbody>
+</table>
+
+
+  
 
 
 | Variable | Min Value | Max Value |
