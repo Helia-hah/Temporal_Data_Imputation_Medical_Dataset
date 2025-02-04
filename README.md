@@ -4,9 +4,9 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 - Six routine vital signs: heart rate (HR), respiratory rate (RR), oxygen saturation (pulse oximetry) (O2SP), and non-invasive blood pressure—diastolic (NIBPD), mean (NIBPM), and systolic (NIBPS).
   
-– Two Types of Demographic Information: Gender and age.
+- Two Types of Demographic Information: Gender and age.
 
-– Three Physical Characteristics: Height, weight, and body mass index (BMI).
+- Three Physical Characteristics: Height, weight, and body mass index (BMI).
 
-– Administered Medications.
+- Administered Medications.
 
