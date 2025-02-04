@@ -17,12 +17,12 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 | Variable | Min Value | Max Value |
 |------------------------------|-----------|-----------| 
-| **Heart Rate ** | -3 | 303 | 
-| **Respiratory Rate ** | -3 | 303 | 
-| **Oxygen Saturation ** | -1 | 101 | 
-| **Non-invasive BP diastolic ** | -5 | 505 | 
-| **Non-invasive BP systolic ** | -5 | 505 | 
-| **Non-invasive BP mean ** | -5 | 505 | 
+| **Heart Rate** | -3 | 303 | 
+| **Respiratory Rate** | -3 | 303 | 
+| **Oxygen Saturation** | -1 | 101 | 
+| **Non-invasive BP diastolic** | -5 | 505 | 
+| **Non-invasive BP systolic** | -5 | 505 | 
+| **Non-invasive BP mean** | -5 | 505 | 
 | **Weight** | 40 | 1435 | 
 | **Height** | 20 | 110 |
 | **BMI** | 5 | 190 |
