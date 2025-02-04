@@ -16,62 +16,63 @@ ___
 
 - **Outlier Removal:** Outliers in demographic data, vital signs, and physical characteristics were removed based on the following value ranges:
 
-  <table style="font-size: 8px; width: 60%; margin: auto; border-collapse: collapse;">
+  <table style="font-size: 10px; line-height: 1.2; width: 60%; margin: auto; border-collapse: collapse;">
   <thead>
     <tr>
-      <th style="border: 1px solid black; padding: 5px; width: 25%;">Variable</th> <!-- Adjusted width of the first column -->
-      <th style="border: 1px solid black; padding: 5px;">Min Value</th>
-      <th style="border: 1px solid black; padding: 5px;">Max Value</th>
+      <th style="border: 1px solid black; padding: 2px; text-align: left;">Variable</th>
+      <th style="border: 1px solid black; padding: 2px; text-align: left;">Min Value</th>
+      <th style="border: 1px solid black; padding: 2px; text-align: left;">Max Value</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; width: 25%;"><strong>Heart Rate</strong></td> <!-- Adjusted width of the first column -->
-      <td style="border: 1px solid black; padding: 5px;">-3</td>
-      <td style="border: 1px solid black; padding: 5px;">303</td>
+      <td style="border: 1px solid black; padding: 2px;">Heart Rate</td>
+      <td style="border: 1px solid black; padding: 2px;">-3</td>
+      <td style="border: 1px solid black; padding: 2px;">303</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; width: 25%;"><strong>Respiratory Rate</strong></td> <!-- Adjusted width of the first column -->
-      <td style="border: 1px solid black; padding: 5px;">-3</td>
-      <td style="border: 1px solid black; padding: 5px;">303</td>
+      <td style="border: 1px solid black; padding: 2px;">Respiratory Rate</td>
+      <td style="border: 1px solid black; padding: 2px;">-3</td>
+      <td style="border: 1px solid black; padding: 2px;">303</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; width: 25%;"><strong>Oxygen Saturation</strong></td> <!-- Adjusted width of the first column -->
-      <td style="border: 1px solid black; padding: 5px;">-1</td>
-      <td style="border: 1px solid black; padding: 5px;">101</td>
+      <td style="border: 1px solid black; padding: 2px;">Oxygen Saturation</td>
+      <td style="border: 1px solid black; padding: 2px;">-1</td>
+      <td style="border: 1px solid black; padding: 2px;">101</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; width: 25%;"><strong>Non-invasive BP diastolic</strong></td> <!-- Adjusted width of the first column -->
-      <td style="border: 1px solid black; padding: 5px;">-5</td>
-      <td style="border: 1px solid black; padding: 5px;">505</td>
+      <td style="border: 1px solid black; padding: 2px;">Non-invasive BP diastolic</td>
+      <td style="border: 1px solid black; padding: 2px;">-5</td>
+      <td style="border: 1px solid black; padding: 2px;">505</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; width: 25%;"><strong>Non-invasive BP systolic</strong></td> <!-- Adjusted width of the first column -->
-      <td style="border: 1px solid black; padding: 5px;">-5</td>
-      <td style="border: 1px solid black; padding: 5px;">505</td>
+      <td style="border: 1px solid black; padding: 2px;">Non-invasive BP systolic</td>
+      <td style="border: 1px solid black; padding: 2px;">-5</td>
+      <td style="border: 1px solid black; padding: 2px;">505</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; width: 25%;"><strong>Non-invasive BP mean</strong></td> <!-- Adjusted width of the first column -->
-      <td style="border: 1px solid black; padding: 5px;">-5</td>
-      <td style="border: 1px solid black; padding: 5px;">505</td>
+      <td style="border: 1px solid black; padding: 2px;">Non-invasive BP mean</td>
+      <td style="border: 1px solid black; padding: 2px;">-5</td>
+      <td style="border: 1px solid black; padding: 2px;">505</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; width: 25%;"><strong>Weight</strong></td> <!-- Adjusted width of the first column -->
-      <td style="border: 1px solid black; padding: 5px;">40</td>
-      <td style="border: 1px solid black; padding: 5px;">1435</td>
+      <td style="border: 1px solid black; padding: 2px;">Weight</td>
+      <td style="border: 1px solid black; padding: 2px;">40</td>
+      <td style="border: 1px solid black; padding: 2px;">1435</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; width: 25%;"><strong>Height</strong></td> <!-- Adjusted width of the first column -->
-      <td style="border: 1px solid black; padding: 5px;">20</td>
-      <td style="border: 1px solid black; padding: 5px;">110</td>
+      <td style="border: 1px solid black; padding: 2px;">Height</td>
+      <td style="border: 1px solid black; padding: 2px;">20</td>
+      <td style="border: 1px solid black; padding: 2px;">110</td>
     </tr>
     <tr>
-      <td style="border: 1px solid black; padding: 5px; width: 25%;"><strong>BMI</strong></td> <!-- Adjusted width of the first column -->
-      <td style="border: 1px solid black; padding: 5px;">5</td>
-      <td style="border: 1px solid black; padding: 5px;">190</td>
+      <td style="border: 1px solid black; padding: 2px;">BMI</td>
+      <td style="border: 1px solid black; padding: 2px;">5</td>
+      <td style="border: 1px solid black; padding: 2px;">190</td>
     </tr>
   </tbody>
 </table>
+
 
 
 
