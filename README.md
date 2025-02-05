@@ -46,6 +46,7 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 ### Data Imputation Methods
 ---
+<img src="Figures/Approaches.png" alt="Data Imputation Approaches" width="60%">
 
 
 
