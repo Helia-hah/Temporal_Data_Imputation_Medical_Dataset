@@ -39,6 +39,10 @@ This repository presents a novel statistical hierarchical approach for imputing 
   - Weight values from the medication table were averaged hourly and smoothed using a 24-hour rolling mean to account for fluctuations. The resulting values were then averaged with weights from the OMR table.
   - Update BMI using the new height and weight values.
 
+### Introducing Missingness
+---
+**Three distinct missingness patterns** (MCAR, MAR, MNAR) and **eleven different missing data ratios**, including 1%, and ranging from 5% to 50% in 5% increments, were applied to each vital sign.
+
 
 
 
