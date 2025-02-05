@@ -28,8 +28,8 @@ ___
   | BMI                       | 5        | 190      |
 
 - **Timestamp Standardization:**
-  - Timestamps for the six vital signs were rounded to the nearest hour with a 30-minute threshold applied(If no record was available for a given time, it was replaced with null values).
-  - Data were aggregated at one-hour intervals for consistency across patients.
+  - Timestamps for the six vital signs were rounded to the nearest hour with a 30-minute threshold applied (If no record was available for a given time, it was replaced with null values). Data were aggregated at one-hour intervals for consistency across patients.
+  - To standardize medication administration timing, start and end times were rounded to the nearest hour using a 30-minute threshold. New records were created for each medication at each rounded hour within the administration period.
 
 
 
