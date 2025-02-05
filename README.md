@@ -73,7 +73,7 @@ ___
   </tbody>
 </table>
 
-- Timestamp Standardization:
+- **Timestamp Standardization:**
 - Timestamps for the six vital signs were rounded to the nearest hour with a 30-minute threshold applied(If no record was available for a given time, it was replaced with null values).
 - Data were aggregated at one-hour intervals for consistency across patients.
 
