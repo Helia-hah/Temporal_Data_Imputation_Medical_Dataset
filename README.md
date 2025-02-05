@@ -31,6 +31,13 @@ This repository presents a novel statistical hierarchical approach for imputing 
 - **Timestamp Standardization:**
   - Timestamps for the six vital signs were rounded to the nearest hour with a 30-minute threshold applied (If no record was available for a given time, it was replaced with null values). Data were aggregated at one-hour intervals for consistency across patients.
   - To standardize medication administration timing, start and end times were rounded to the nearest hour using a 30-minute threshold. New records were created for each medication at each rounded hour within the administration period.
+ 
+- **Medication Categorization:** Medications were grouped into 16 main categories and encoded in binary format (1 for received, 0 for not received).
+ 
+- **Physical Characteristics Preprocessing**:
+  - Height values were averaged across all stays (All patients were adults, so height changes were negligible).
+  - Weight values from the medication table were averaged hourly and smoothed using a 24-hour rolling mean to account for fluctuations. The resulting values were then averaged with weights from the OMR table.
+  - Update BMI using the new height and weight values.
 
 
 
