@@ -47,9 +47,9 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 
 ## References
-[1].Johnson, A.E., Bulgarelli, L., Shen, L., Gayles, A., Shammout, A., Horng, S.,
+[1]. Johnson, A.E., Bulgarelli, L., Shen, L., Gayles, A., Shammout, A., Horng, S.,
 Pollard, T.J., Hao, S., Moody, B., Gow, B., et al.: Mimic-iv, a freely accessible
-electronic health record dataset. Scientific data 10(1), 1 (2023)
+electronic health record dataset. Scientific data 10(1), 1 (2023) [Link to paper](https://www.nature.com/articles/s41597-022-01899-x)
 
 
 
