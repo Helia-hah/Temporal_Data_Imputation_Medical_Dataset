@@ -41,10 +41,9 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 ### Introducing Missingness
 ---
-**Three distinct missingness patterns** (MCAR, MAR, MNAR) and **eleven different missing data ratios**, including 1%, and ranging from 5% to 50% in 5% increments, were applied to each vital sign.
-
+Three distinct missingness patterns (Missing Completely at Random (MCAR), Missing at Random (MAR), Missing Not at Random (MNAR)) and eleven missing data ratios, including 1%, and ranging from 5% to 50% in 5% increments, were applied to each vital sign.
   - To generate MCAR and MNAR, the `produce_NA` function was used, with references to [this guide](https://rmisstastic.netlify.app/how-to/python/generate_html/how%20to%20generate%20missing%20values) and the [GitHub repository](https://github.com/BorisMuzellec/MissingDataOT).
-  - The MAR (Missing At Random) pattern was created by identifying the feature most strongly correlated with the target column. A specified number of missing values were introduced: half were selected from the smallest values and the other half from the largest values of the correlated feature. Finally, the corresponding rows in the target column were set to missing.
+  - The MAR pattern was created by identifying the feature most strongly correlated with the target column. A specified number of missing values were introduced: half were selected from the smallest values and the other half from the largest values of the correlated feature. Finally, the corresponding rows in the target column were set to missing.
 
 
 
