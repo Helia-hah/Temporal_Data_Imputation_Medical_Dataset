@@ -46,7 +46,14 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 ### Data Imputation Methods
 ---
+
+Various models were used to assess the imputation process for medical time series, categorized according to their distinct characteristics as follows:
+  
 <img src="Figures/Models.png" alt="Data Imputation Approaches" width="60%">
+
+In the **Internal Imputation Models** category, the models focus solely on imputing the missing values of the target column. In contrast, **Feature-Dependent Imputation Models** leverage other features in the dataset to   predict and fill in the missing values. **Multivariate Imputation Models** can be considered hybrid approaches, as they utilize both the target feature and additional variables in the dataset to perform the imputation.
+
+The core concept of the newly defined statistical approach, `stat_hier_hist_impute`, is to leverage historical data within a hierarchical structure to impute missing values. The hierarchy prioritizes first examining past data from the same patient and admission for potential imputation. `stat_hier_impute` follows the same logic but, in addition to historical records, it also incorporates future records for imputation. The statistical approaches utilized in this research include the mean and median.
 
 
 
