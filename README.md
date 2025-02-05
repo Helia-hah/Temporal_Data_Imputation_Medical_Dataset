@@ -47,19 +47,7 @@ Three distinct missingness patterns (Missing Completely at Random (MCAR), Missin
 
 ### Data Imputation Methods
 ---
-```mermaid
-graph TD;
-    A[Imputation Models] -->|Internal Imputation| B(Mean / Median)
-    B -->|Statistical Methods| C[stat_impute]
-    B --> C1[stat_hier_impute]
-    B --> C2[stat_hier_hist_impute]
 
-    A -->|Feature-Dependent Models| D(KNN / Linear Regression)
-    D --> D1[Random Forest]
-    D --> D2[XGBoost]
-    D --> D3[MICE]
-
-    A -->|Multivariate Models| E(BRITS / GRUD)
 
 
 
