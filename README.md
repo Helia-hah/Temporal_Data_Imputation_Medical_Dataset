@@ -43,6 +43,10 @@ This repository presents a novel statistical hierarchical approach for imputing 
 ---
 **Three distinct missingness patterns** (MCAR, MAR, MNAR) and **eleven different missing data ratios**, including 1%, and ranging from 5% to 50% in 5% increments, were applied to each vital sign.
 
+  - for creating MCAR and MNAR, produce_NA [link1](https://rmisstastic.netlify.app/how-to/python/generate_html/how%20to%20generate%20missing%20values), [link to github](https://github.com/BorisMuzellec/MissingDataOT)was used.
+  - To generate MCAR and MNAR, the <span style="border: 2px solid gray; padding: 2px;">produce_NA</span> function was used, with references to [this guide](https://rmisstastic.netlify.app/how-to/python/generate_html/how%20to%20generate%20missing%20values) and the [GitHub repository](https://github.com/BorisMuzellec/MissingDataOT).
+
+
 
 
 
