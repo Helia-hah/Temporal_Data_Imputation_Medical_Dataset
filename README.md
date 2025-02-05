@@ -45,6 +45,23 @@ Three distinct missingness patterns (Missing Completely at Random (MCAR), Missin
   - To generate MCAR and MNAR, the `produce_NA` function was used, with references to [this guide](https://rmisstastic.netlify.app/how-to/python/generate_html/how%20to%20generate%20missing%20values) and the [GitHub repository](https://github.com/BorisMuzellec/MissingDataOT).
   - The MAR pattern was created by identifying the feature most strongly correlated with the target column. A specified number of missing values were introduced: half were selected from the smallest values and the other half from the largest values of the correlated feature. Finally, the corresponding rows in the target column were set to missing.
 
+### Data Imputation Methods
+---
+```mermaid
+graph TD;
+    A[Imputation Models] -->|Internal Imputation| B(Mean / Median)
+    B -->|Statistical Methods| C[stat_impute]
+    B --> C1[stat_hier_impute]
+    B --> C2[stat_hier_hist_impute]
+
+    A -->|Feature-Dependent Models| D(KNN / Linear Regression)
+    D --> D1[Random Forest]
+    D --> D2[XGBoost]
+    D --> D3[MICE]
+
+    A -->|Multivariate Models| E(BRITS / GRUD)
+
+
 
 
 
