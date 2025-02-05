@@ -12,10 +12,7 @@ This repository presents a novel statistical hierarchical approach for imputing 
 
 
 ### Data Preprocessing
-![Data Processing Icon](https://www.clipartmax.com/png/small/1-19795_data-processing-data-processing-icon.png)
-
 ---
-https://images.app.goo.gl/boxd2UfiprtEhS3M9
 
 - **Outlier Removal:** Outliers in demographic data, vital signs, and physical characteristics were removed based on the following value ranges:
     | Variable                   | Min Value | Max Value |
