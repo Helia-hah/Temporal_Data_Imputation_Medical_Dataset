@@ -188,17 +188,3 @@ def rnn_based_imputation(train_dataset, target_column, test_dataset, original_ma
 
     return averaged_values_sorted[target_column], execution_time, indices_not_equal 
 
-
-
-def evaulate(actual_values, imputed_values):
-    
-    mae = round(mean_absolute_error(actual_values, imputed_values),2)
-    mse = round(mean_squared_error(actual_values, imputed_values),2)
-    rmse = round(np.sqrt(mse),2)
-    
-    return mae, mse, rmse
-
-
-
-
-
