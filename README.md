@@ -1,6 +1,6 @@
 # Temporal Data Imputation for Medical Datasets
 
-This repository presents a novel statistical hierarchical approach for imputing missing values in temporal medical datasets. For time series imputation in this research, the following information about ICU patients was extracted from the MIMIC-IV [1,2] dataset:
+This repository presents a novel statistical hierarchical approach for imputing missing values in temporal medical datasets. The proposed method, which offers fast computation with minimal resource requirements, outperforms multiple models and baselines used in this research. For time series imputation in this research, the following information about ICU patients was extracted from the MIMIC-IV [1,2] dataset:
 
 - Six routine vital signs: heart rate (**HR**), respiratory rate (**RR**), oxygen saturation (pulse oximetry) (**O2SP**), and non-invasive blood pressure—diastolic (**NIBPD**), systolic (**NIBPS**), and mean (**NIBPM**).
   
