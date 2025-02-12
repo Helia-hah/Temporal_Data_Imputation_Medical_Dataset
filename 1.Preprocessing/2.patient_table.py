@@ -31,21 +31,6 @@ def merge_patient_records_with_demographic(dataset, patient):
     
     return merged_dataset
 
-file_path = '/home/helia24/projects/def-pbranco/helia24/final_version/dataset-1/1h_vital.csv'
-vital_1h = pd.read_csv(file_path)
-
-file_path = '/home/helia24/projects/def-pbranco/helia24/original_dataset/patients.csv.gz'
-patient_table = pd.read_csv(file_path, compression='gzip')
-
-
-preprocessed_patient = preprocessing_patient_table(patient_table)
-print('preprocessed_patient is done')
-vital_patient = merge_patient_records_with_demographic(vital_1h, preprocessed_patient)
-print('vital_patient is done')
-
-
-vital_patient.to_csv('1h_vp.csv', index=False)
-
 
 def main():
     """Main function to preprocess patient data and merge with vitals."""
