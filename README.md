@@ -1,6 +1,6 @@
 # MediTHIM: Temporal Hierarchical Imputation Methods for Medical Time Series
 
-This repository contains the code and resources for *MediTHIM: Temporal Hierarchical Imputation Methods for Medical Time Series* [1], a method that proposes a novel statistical hierarchical approach to impute missing values in temporal medical data. The proposed method, which offers fast computation with minimal resource requirements, outperforms multiple models and baselines used in this research. For time series imputation in this research, the following information about ICU patients was extracted from the MIMIC-IV [2,3] dataset:
+This repository contains the code and resources for the corresponding paper [1], presenting a novel statistical hierarchical approach for imputing missing values in temporal medical datasets. The proposed method, which offers fast computation with minimal resource requirements, outperforms multiple models and baselines used in this research. For time series imputation in this research, the following information about ICU patients was extracted from the MIMIC-IV [2,3] dataset:
 
 - Six routine vital signs: heart rate (**HR**), respiratory rate (**RR**), oxygen saturation (pulse oximetry) (**O2SP**), and non-invasive blood pressure—diastolic (**NIBPD**), systolic (**NIBPS**), and mean (**NIBPM**).
   
