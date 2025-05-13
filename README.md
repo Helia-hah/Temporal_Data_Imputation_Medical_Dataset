@@ -1,6 +1,6 @@
-# Temporal Data Imputation for Medical Datasets
+# MediTHIM: Temporal Hierarchical Imputation Methods for Medical Time Series
 
-This repository presents a novel statistical hierarchical approach for imputing missing values in temporal medical datasets. The proposed method, which offers fast computation with minimal resource requirements, outperforms multiple models and baselines used in this research. For time series imputation in this research, the following information about ICU patients was extracted from the MIMIC-IV [1,2] dataset:
+This repository contains the code and resources for *MediTHIM: Temporal Hierarchical Imputation Methods for Medical Time Series* [1], a method that proposes a novel statistical hierarchical approach to impute missing values in temporal medical data. The proposed method, which offers fast computation with minimal resource requirements, outperforms multiple models and baselines used in this research. For time series imputation in this research, the following information about ICU patients was extracted from the MIMIC-IV [2,3] dataset:
 
 - Six routine vital signs: heart rate (**HR**), respiratory rate (**RR**), oxygen saturation (pulse oximetry) (**O2SP**), and non-invasive blood pressure—diastolic (**NIBPD**), systolic (**NIBPS**), and mean (**NIBPM**).
   
@@ -62,12 +62,12 @@ The core concept of the newly defined statistical approach, `stat_hier_hist_impu
 
 
 ## References
-[1]. Johnson, A.E., Bulgarelli, L., Shen, L., Gayles, A., Shammout, A., Horng, S.,
-Pollard, T.J., Hao, S., Moody, B., Gow, B., et al.: Mimic-iv, a freely accessible
-electronic health record dataset. Scientific data 10(1), 1 (2023) [Link to paper](https://www.nature.com/articles/s41597-022-01899-x)
+[1]. Hashemolhosseiny, Helia, and Paula Branco. ”MediTHIM: Temporal Hierarchical Imputation Methods for Medical
+Time Series.” International Conference on Industrial, Engineering and Other Applications of Applied Intelligent
+Systems. Springer, 2025 (accepted - to appear)
+[2]. Johnson, Alistair EW, et al. "MIMIC-IV, a freely accessible electronic health record dataset." Scientific data 10.1 (2023): 1. [Link to paper](https://www.nature.com/articles/s41597-022-01899-x)
 
-[2]. Johnson, A., Bulgarelli, L., Pollard, T., Horng, S., Celi, L., Mark IV, R.: Mimic-iv
-(version 2.2). physionet.[internet] (2023) [Link to website](https://physionet.org/content/mimiciv/2.2/)
+[3]. Johnson, A., et al. "MIMIC-IV (version 2.2). PhysioNet.[Internet]." 2023, [Link to website](https://physionet.org/content/mimiciv/2.2/)
 
 
 
