@@ -65,6 +65,7 @@ The core concept of the newly defined statistical approach, `stat_hier_hist_impu
 [1]. Hashemolhosseiny, Helia, and Paula Branco. ”MediTHIM: Temporal Hierarchical Imputation Methods for Medical
 Time Series.” International Conference on Industrial, Engineering and Other Applications of Applied Intelligent
 Systems. Springer, 2025 (accepted - to appear)
+
 [2]. Johnson, Alistair EW, et al. "MIMIC-IV, a freely accessible electronic health record dataset." Scientific data 10.1 (2023): 1. [Link to paper](https://www.nature.com/articles/s41597-022-01899-x)
 
 [3]. Johnson, A., et al. "MIMIC-IV (version 2.2). PhysioNet.[Internet]." 2023, [Link to website](https://physionet.org/content/mimiciv/2.2/)
