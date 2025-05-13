@@ -68,7 +68,7 @@ Systems. Springer, 2025 (accepted - to appear)
 
 [2]. Johnson, Alistair EW, et al. "MIMIC-IV, a freely accessible electronic health record dataset." Scientific data 10.1 (2023): 1. [Link to paper](https://www.nature.com/articles/s41597-022-01899-x)
 
-[3]. Johnson, A., et al. "MIMIC-IV (version 2.2). PhysioNet.[Internet]." 2023, [Link to website](https://physionet.org/content/mimiciv/2.2/)
+[3]. Johnson, A., et al. "MIMIC-IV (version 2.2). PhysioNet.[Internet]." 2023. [Link to website](https://physionet.org/content/mimiciv/2.2/)
 
 
 
