@@ -49,7 +49,7 @@ This repository contains the code and resources for the corresponding paper [1],
 
 Various models were used to assess the imputation process for medical time series, categorized according to their distinct characteristics as follows:
   
-<img src="Figures/Models.png" alt="Data Imputation Approaches" width="65%">
+<img src="Figures/Models.png" alt="Data Imputation Approaches" width="70%">
 
 In the **Internal Imputation Models** category, the models focus solely on imputing the missing values of the target column. In contrast, **Feature-Dependent Imputation Models** leverage other features in the dataset to   predict and fill in the missing values. **Multivariate Imputation Models** can be considered hybrid approaches, as they utilize both the target feature and additional variables in the dataset to perform the imputation.
 
