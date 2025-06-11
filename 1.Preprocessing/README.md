@@ -9,4 +9,5 @@ Physical characteristics, including height, weight, and BMI, were then extracted
 Finally, data on continuous and bolus infusions were collected from the `inputevents` table.
 
 The flowchart below outlines these preprocessing steps in greater detail.
-<img src="Figures/Preprocessing.png" alt="Preprocessing" width="70%">
+
+<img src="Figures/Preprocessing.png" alt="Preprocessing" width="70%"/>
