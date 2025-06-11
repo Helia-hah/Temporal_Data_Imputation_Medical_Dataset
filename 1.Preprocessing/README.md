@@ -10,4 +10,4 @@ Finally, data on continuous and bolus infusions were collected from the `inputev
 
 The flowchart below outlines these preprocessing steps in greater detail.
 
-<img src="Figures/Preprocessing.png" alt="Preprocessing" width="70%"/>
+<img src="../Figures/Preprocessing.png" alt="Preprocessing" width="70%"/>
