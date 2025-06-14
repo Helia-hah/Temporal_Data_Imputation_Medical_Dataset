@@ -4,6 +4,7 @@ import time
 
 
 def stat_impute(statistical_strategy, train_dataset, target_column, test_dataset, original_mask_test):
+    # Average/Median approach
 
     start_time = time.time()
     
@@ -26,6 +27,8 @@ def stat_impute(statistical_strategy, train_dataset, target_column, test_dataset
     return imputed_values, execution_time
 
 def stat_hier_impute(statistical_strategy, target_column, test_dataset, original_mask_test):
+    # Average-H/Median-H approach
+    
     start_time = time.time()
     
     # Get the indices of null values that are created in the desired column but do not exist in the original dataset
@@ -56,6 +59,7 @@ def stat_hier_impute(statistical_strategy, target_column, test_dataset, original
     return imputed_values, execution_time
 
 def stat_hier_hist_impute(statistical_strategy, train_dataset, target_column, test_dataset, original_mask_test):
+    # MediTHIM-A/MediTHIM-M approach
     
     start_time = time.time()
     
