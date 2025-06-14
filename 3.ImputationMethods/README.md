@@ -24,5 +24,7 @@ All the above approaches are implemented in the statistical_impute.py file. Here
 
 ## References:
 [1]. Azur, Melissa J., et al. "Multiple imputation by chained equations: what is it and how does it work?." International journal of methods in psychiatric research 20.1 (2011): 40-49.
+
 [2]. Che, Zhengping, et al. "Recurrent neural networks for multivariate time series with missing values." Scientific reports 8.1 (2018): 6085.
+
 [3]. Cao, Wei, et al. "Brits: Bidirectional recurrent imputation for time series." Advances in neural information processing systems 31 (2018).
