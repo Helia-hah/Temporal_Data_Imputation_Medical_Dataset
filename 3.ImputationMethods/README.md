@@ -19,7 +19,7 @@ All the above approaches are implemented in the statistical_impute.py file. Here
 3) 🔄 **Multivariate Imputation Models**: These models leverage both the target feature and other variables within the dataset to perform imputation. In the context of time series data, deep learning approaches—particularly Recurrent Neural Networks (RNNs)—have gained significant popularity.
 - GRU-D [2]
 - BRITS [3]
-- 
+  
 All of the above approaches are implemented in rnn_based_impute.py. You can specify the model by setting the 'rnn_model' variable to either brits or grud.
 
 
