@@ -56,7 +56,12 @@ In the **Internal Imputation Models** category, the models focus solely on imput
 The core idea behind the newly introduced statistical approach, `MediTHIM-A/MediTHIM-M`, is to leverage historical data within a hierarchical framework to impute missing values. The hierarchy is designed to first search for past data from the same patient and admission, and if unavailable, to fall back on historical data from the same patient across other admissions. `Average-H/Median-H` follows the same logic but, in addition to historical records, it also incorporates future records for imputation. `Average/Median` calculates the statistics of the target column in the training dataset to impute the target column in the test dataset. 
 
 
-
+### Results & Conclusions
+---
+<p align="center">
+  <img src="Figures/HR-final.png" alt="HR" width="45%" />
+  <img src="Figures/O2SP-final.png" alt="O2SP" width="45%" />
+</p>
 
 
 
