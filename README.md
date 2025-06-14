@@ -53,7 +53,7 @@ Various models were used to assess the imputation process for medical time serie
 
 In the **Internal Imputation Models** category, the models focus solely on imputing the missing values of the target column. In contrast, **Feature-Dependent Imputation Models** leverage other features in the dataset to   predict and fill in the missing values. **Multivariate Imputation Models** can be considered hybrid approaches, as they utilize both the target feature and additional variables in the dataset to perform the imputation.
 
-The core concept of the newly defined statistical approach, `MediTHIM-A/MediTHIM-M`, is to leverage historical data within a hierarchical structure to impute missing values. The hierarchy prioritizes first examining past data from the same patient and admission for potential imputation. `Average-H/Median-H` follows the same logic but, in addition to historical records, it also incorporates future records for imputation. `Average/Median` calculates the statistics of the target column in the training dataset to impute the target column in the test dataset. 
+The core idea behind the newly introduced statistical approach, `MediTHIM-A/MediTHIM-M`, is to leverage historical data within a hierarchical framework to impute missing values. The hierarchy is designed to first search for past data from the same patient and admission, and if unavailable, to fall back on historical data from the same patient across other admissions. `Average-H/Median-H` follows the same logic but, in addition to historical records, it also incorporates future records for imputation. `Average/Median` calculates the statistics of the target column in the training dataset to impute the target column in the test dataset. 
 
 
 
