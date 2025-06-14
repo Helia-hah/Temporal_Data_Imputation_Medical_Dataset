@@ -62,11 +62,11 @@ The core idea behind the newly introduced statistical approach, `MediTHIM-A/Medi
   <tr>
     <td align="center">
       <img src="Figures/O2SP_final.png" alt="O2SP" width="50%"/><br>
-      <em>Figure 2: Oxygen Saturation (O2SP) imputation results</em>
+      <em>Oxygen Saturation (O2SP) imputation results</em>
     </td>
     <td align="center">
       <img src="Figures/HR_final.png" alt="HR" width="50%"/><br>
-      <em>Figure 1: Heart Rate (HR) imputation results</em>
+      <em>Heart Rate (HR) imputation results</em>
     </td>
   </tr>
 </table>
