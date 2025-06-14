@@ -22,7 +22,7 @@ A variety of models were employed to evaluate the imputation process for medical
   
   All of the above approaches are implemented in rnn_based_impute.py. You can specify the model by setting the 'rnn_model' variable to either brits or grud.
 
-
+<img src="../Figures/Models.png" alt="Data Imputation Approaches" width="70%">
 
 ## References:
 [1]. Azur, Melissa J., et al. "Multiple imputation by chained equations: what is it and how does it work?." International journal of methods in psychiatric research 20.1 (2011): 40-49.
