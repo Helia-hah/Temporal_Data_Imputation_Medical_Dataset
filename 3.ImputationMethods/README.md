@@ -7,7 +7,7 @@ A variety of models were employed to evaluate the imputation process for medical
 
 - MediTHIM-A and MediTHIM-M:  To preserve temporal integrity, the historical variants MediTHIM-A and MediTHIM-M impute missing values using only past data, first from the same ICU stay, then from the patient’s previous records, and finally from overall training set statistics, ensuring a strictly time-aware imputation process.
 
-All the above approaches are implemented in the statistical_impute.py file. Here, `stat_impute` corresponds to Average/Median, `stat_hier_impute` to Average-H/Median-H, and `stat_hier_hist_impute` to MediTHIM-A/MediTHIM-M.
+  All the above approaches are implemented in the statistical_impute.py file. Here, `stat_impute` corresponds to Average/Median, `stat_hier_impute` to Average-H/Median-H, and `stat_hier_hist_impute` to MediTHIM-A/MediTHIM-M.
 
 2) 🔗 **Feature-Dependent Imputation Models**: These methods use other features within the dataset to predict missing values in the target column.
 - Linear Regression
@@ -20,7 +20,7 @@ All the above approaches are implemented in the statistical_impute.py file. Here
 - GRU-D [2]
 - BRITS [3]
   
-All of the above approaches are implemented in rnn_based_impute.py. You can specify the model by setting the 'rnn_model' variable to either brits or grud.
+  All of the above approaches are implemented in rnn_based_impute.py. You can specify the model by setting the 'rnn_model' variable to either brits or grud.
 
 
 
