@@ -59,8 +59,8 @@ The core idea behind the newly introduced statistical approach, `MediTHIM-A/Medi
 ### Results & Conclusions
 ---
 <p align="center">
-  <img src="Figures/HR-final.png" alt="HR" width="45%" />
-  <img src="Figures/O2SP-final.png" alt="O2SP" width="45%" />
+  <img src="Figures/HR_final.png" alt="HR" width="45%" />
+  <img src="Figures/O2SP_final.png" alt="O2SP" width="45%" />
 </p>
 
 
