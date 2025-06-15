@@ -58,14 +58,14 @@ The core idea behind the newly introduced statistical approach, `MediTHIM-A/Medi
 
 ### Results & Conclusions
 ---
-<table border="0">
+<table>
   <tr>
     <td align="center">
-      <img src="Figures/O2SP_final.png" alt="O2SP" width="85%"/><br>
+      <img src="Figures/O2SP_final.png" alt="O2SP" width="90%"/><br>
       <em>Missing data imputation results for Oxygen Saturation (O2SP)</em>
     </td>
     <td align="center">
-      <img src="Figures/HR_final.png" alt="HR" width="85%"/><br>
+      <img src="Figures/HR_final.png" alt="HR" width="90%"/><br>
       <em>Missing data imputation results for Heart Rate (HR)</em>
     </td>
   </tr>
