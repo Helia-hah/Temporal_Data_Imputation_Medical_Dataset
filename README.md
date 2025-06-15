@@ -58,6 +58,8 @@ The core idea behind the newly introduced statistical approach, `MediTHIM-A/Medi
 
 ### Results & Conclusions
 ---
+The graphs below present the performance of the evaluated imputation approaches on two vital signs: Oxygen Saturation and Heart Rate.
+
 <table>
   <tr>
     <td align="center">
