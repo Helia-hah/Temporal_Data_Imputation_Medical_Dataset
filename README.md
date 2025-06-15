@@ -71,6 +71,7 @@ The core idea behind the newly introduced statistical approach, `MediTHIM-A/Medi
   </tr>
 </table>
 
+
 In real-world clinical settings, such as ICUs and operating rooms, imputation speed is just as critical as accuracy. Timely decisions based on continuously recorded vital signs (e.g., heart rate, blood pressure) are essential for managing critically ill patients. While RNN-based methods can sometimes offer higher accuracy, they often require hours of computation, making them impractical in urgent scenarios. In contrast, **MediTHIM delivers accurate predictions within seconds**, offering a highly efficient and reliable solution for time-sensitive medical applications
 
 
