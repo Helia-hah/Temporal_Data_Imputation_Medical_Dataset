@@ -81,9 +81,7 @@ In real-world clinical settings, such as ICUs and operating rooms, imputation sp
 
 
 ## References
-[1]. Hashemolhosseiny, Helia, and Paula Branco. ”MediTHIM: Temporal Hierarchical Imputation Methods for Medical
-Time Series.” International Conference on Industrial, Engineering and Other Applications of Applied Intelligent
-Systems. Springer, 2025 (accepted - to appear)
+[1]. Hashemolhosseiny, Helia, and Paula Branco. "MediTHIM: Temporal Hierarchical Imputation Methods for Medical Time Series." International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems. Singapore: Springer Nature Singapore, 2025.
 
 [2]. Johnson, Alistair EW, et al. "MIMIC-IV, a freely accessible electronic health record dataset." Scientific data 10.1 (2023): 1. [Link to paper](https://www.nature.com/articles/s41597-022-01899-x)
 
